@@ -234,7 +234,6 @@
     text-underline-offset: 0.2rem;}
 
 
-
 /* Quantiy Selector
 ############################################################################ */
 
@@ -251,7 +250,6 @@
     background-color: var(--accent-lighter);
     font-weight: var(--font-weight-bold);
 }
-
 
 /* Form
 ############################################################################ */
@@ -316,7 +314,6 @@ form input[type="checkbox"] {
 .invalid-label {
     color: red;
 }
-
 
 /* Comments
 ############################################################################ */
