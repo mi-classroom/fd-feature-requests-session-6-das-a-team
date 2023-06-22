@@ -57,7 +57,7 @@ function addComment(name, comment) {
   const pcomment = document.createElement('p');
 
   //adding content to elements
-  img.src = '../images/user.png';
+  img.src = 'images/user.png';
   img.alt = 'Logo';
   pusername.textContent = name;
   pcomment.textContent = comment;
