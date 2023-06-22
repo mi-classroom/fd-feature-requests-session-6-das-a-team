@@ -3,8 +3,8 @@
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
-  position: relative;
-  margin: auto;
+  position: relative;   
+  margin-bottom: 70%;
 }
 
 /* Hide the images by default */
@@ -15,15 +15,18 @@
     width: 100%;
   }
 
-  .mySlides:first-child {
+.mySlides:first-child {
     display: relative;
-  }
+}
 
-  .mySlides img {
+.mySlides img {
     width: 100%;
     height: auto;
     display: inline-block;
-  }
+}
+.mySlides:active{
+    position: relative;
+}
 
 /* Next & previous buttons */
 .prev, .next {
@@ -31,7 +34,7 @@
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: 30%;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -45,6 +48,7 @@
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -54,7 +58,7 @@
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #bbb;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -65,7 +69,7 @@
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #bbb;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
